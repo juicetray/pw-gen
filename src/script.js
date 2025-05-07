@@ -33,4 +33,13 @@ generateBtn.addEventListener("click", function() {
 
 
 
-    let 
+    let allChars = generatedPassword.split(",");
+    let selectedChars = []
+
+    for (let i = 0; i < Number(lengthInput.value); i++) {
+         let random = allChars[Math.floor(Math.random() * allChars.length)];
+         selectedChars.push(random);
+      }
+      let finalPassword = selectedChars.join("")
+      passwordContainer.textContent = finalPassword;
+});
