@@ -1,13 +1,13 @@
 # 🔐 Password Generator
 
 Generate secure, customizable passwords in seconds.  
-Built with **HTML**, **Tailwind CSS (CDN)**, and **vanilla JavaScript**—no build tooling or backend required.
+Built with **HTML**, **CSS**, and **vanilla JavaScript**
 
 [Live Demo »](https://juicetray.github.io/pw-gen/)
 
 ---
 
-## ✨ Features
+## Features
 
 | Capability | Details |
 |------------|---------|
